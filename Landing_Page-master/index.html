@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>El-Ahly Football Club (1907-Present)</title>
+        <h1>El-Ahly Football Club (1907-Present) <img src="C:\Users\hoss\Downloads\Images\elAhlyLogo.jpg" width="100" length="100"></h1>
+        <link rel="stylesheet" href="C:\Users\hoss\Downloads\CSS\styles.css">
+    </head>
+    <body>
+        <!-- After the title and logo I added three buttons-->
+       <div class="col12 col col-12" id="links" width="100%"> <button width="20px" length="10px" onclick="getCurrentTeam()">CURRENT TEAM</button> <button onclick="getLegends()">ALL TIME LEGENDS</button> <button onclick="getTrophies()">CLUB TROPHIES</button></div>
+       <!--I'm making 3 groups , every group has 2 DIVs , they have the same class "flex container", this is the first group of DIVs-->
+       <div class="flex-container"><div class="col8 col col-6"  id="current-team" >
+        <!--The current team div , has all links of the current team-->   
+        <h2>Current Team</h2>
+            <h3>Goalkeepers:</h3>
+            <ul id="current-keepers">
+                <a href="https://en.wikipedia.org/wiki/Mohamed_El_Shenawy">Mohammed ElShenawy</a>
+                <a href="https://en.wikipedia.org/wiki/Sherif_Ekramy">Sherif Ekramy</a>
+                <a href="https://en.wikipedia.org/wiki/Ali_Lotfi_(footballer)">Ali Lotfi</a>
+            </ul>
+            <h3>Deffenders:</h3>
+            <ul id="current-deffenders">
+                <a href="https://en.wikipedia.org/wiki/Ahmed_Fathy">Ahmed Fathy</a>
+                <a href="https://en.wikipedia.org/wiki/Ali_Ma%C3%A2loul">Ali Maaloul</a>
+                <a href="https://en.wikipedia.org/wiki/Saad_Samir">Saad Samir</a>
+                <a href="https://en.wikipedia.org/wiki/Yasser_Ibrahim">Yasser Ibrahim</a>
+                <a href="https://en.wikipedia.org/wiki/Ramy_Rabia">Ramy Rbia</a>
+                <a href="https://en.wikipedia.org/wiki/Mohamed_Hany">Mohammed Hany</a>
+ 
+            </ul>
+            <h3>Midfielders:</h3>
+            <ul id="current-midfielders">
+                <a href="https://en.wikipedia.org/wiki/Hamdy_Fathy">Hamdy Fathy</a>
+                <a href="https://en.wikipedia.org/wiki/Hussein_El_Shahat">Hussein ElShahat</a>
+                <a href="https://en.wikipedia.org/wiki/Mohamed_Mahmoud">Mohammed Mahmoud</a>
+                <a href="https://en.wikipedia.org/wiki/Ahmed_El_Sheikh">Ahmed ElSheikh</a>
+                <a href="https://en.wikipedia.org/wiki/Walid_Soliman_(footballer)">Waleed Soliman</a>
+                <a href="https://en.wikipedia.org/wiki/Amr_El_Solia">Amr ElSolia</a>
+ 
+            </ul>
+            <h3>Forwards:</h3>
+            <ul id="current-forwards">
+                <a href="https://en.wikipedia.org/wiki/Kahraba_(footballer)">Kahraba</a>
+                <a href="https://en.wikipedia.org/wiki/Aliou_Badji">Aliou Badji</a>
+                <a href="https://en.wikipedia.org/wiki/Geraldo_(footballer,_born_1991)">Geraldo</a>
+                <a href="https://en.wikipedia.org/wiki/Junior_Ajayi">Junior Ajayi</a>
+                <a href="https://en.wikipedia.org/wiki/Marwan_Mohsen">Marwan Mohsen</a>
+ 
+            </ul>
+       </div>
+        <img class="col4 col " id="current-team-pic" src="C:\Users\hoss\Downloads\Images\elAhlyTeam2019.jpg"></div>
+        <!--This is the second group of DIVs-->
+       <div class="flex-container"> <img class="col4 col" id="legend-team-pic" src="C:\Users\hoss\Downloads\Images\elAhlyTeam2006.jpg" style="width:500px;height:600px;">
+        <div class="col8 col col-6" id="legends">
+            <h2>Legends</h2>
+            <h3>Goalkeepers:</h3>
+            <ul id="legend-keepers">
+                <a href="https://en.wikipedia.org/wiki/Essam_El_Hadary">Essam ElHadary</a>
+                <a href="https://en.wikipedia.org/wiki/Ekramy_El-Shahat">Ekramy ElShahat</a>
+                <a href="https://en.wikipedia.org/wiki/Thabet_El-Batal">Thabet ElBatal</a>
+            </ul>
+            <h3>Deffenders:</h3>
+            <ul id="legend-deffenders">
+                <a href="https://en.wikipedia.org/wiki/Wael_Gomaa">Wael Gomaa</a>
+                <a href="https://en.wikipedia.org/wiki/Ibrahim_Hassan">Ibrahim Hassan</a>
+                <a href="https://en.wikipedia.org/wiki/Ibrahim_Said">Ibrahim Said</a>
+                <a href="https://en.wikipedia.org/wiki/Hany_Ramzy">Hany Ramzy</a>
+                <a href="https://en.wikipedia.org/wiki/Sayed_Moawad">Sayed Moawad</a>
+                <a href="https://en.wikipedia.org/wiki/Yasser_Rayyan">Yasser Rayyan</a>
+ 
+            </ul>
+            <h3>Midfielders:</h3>
+            <ul id="legend-midfielders">
+                <a href="https://en.wikipedia.org/wiki/Mohamed_Shawky">Mohammed Shawky</a>
+                <a href="https://en.wikipedia.org/wiki/Hady_Khashaba">Hady Khashaba</a>
+                <a href="https://en.wikipedia.org/wiki/Walid_Salah_El-Din">Waleed Salaheldein</a>
+                <a href="https://en.wikipedia.org/wiki/Mohamed_Barakat">Mohammed Barakat</a>
+                <a href="https://en.wikipedia.org/wiki/Mohamed_Aboutrika">Mohammed Abotreika</a>
+                <a href="https://en.wikipedia.org/wiki/Magdi_Abdelghani">Magdy Abdelghany</a>
+ 
+            </ul>
+            <h3>Forwards:</h3>
+            <ul id="legend-forwards">
+                <a href="https://en.wikipedia.org/wiki/Emad_Moteab">Emad Meteb</a>
+                <a href="https://en.wikipedia.org/wiki/Hossam_Hassan">Hossam Hassan</a>
+                <a href="https://en.wikipedia.org/wiki/Saleh_Selim">Saleh Selim</a>
+                <a href="https://en.wikipedia.org/wiki/Mahmoud_El_Khatib">Mahmoud ELkhatib</a>
+ 
+            </ul>
+        </div> </div><div>
+        <!--This is the third group of DIVs-->
+        <div class="flex-container">
+        <div class="col6 col col-6" id="trophies">
+            <h2>Trophies</h2>
+            <p>
+            Egyptian Premier League: 41
+            Egyptian Cup: 36
+            Egyptian Super Cup: 11
+            CAF Champions League: 8
+            CAF Confederation Cup: 1
+            CAF Super Cup: 6
+        </p>
+       </div> 
+       <!--Putting the three pics in one DIV to make them wrap-->
+       <div class="col6 col  flex-container" id="legends-pics">
+        <img src="C:\Users\hoss\Downloads\Images\abotreika.jpg" width="33%">
+        <img src="C:\Users\hoss\Downloads\Images\saleh.jpg" width="33%">
+        <img src="C:\Users\hoss\Downloads\Images\khatib.jpg" width="33%">
+       </div>
+       <div class="col6 col  flex-container" id="profile">
+           <span>Done By Hossam Tarek Attia  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a style="color:white;" href="https://www.linkedin.com/in/hossam-tarek-b5484295/">LinkedIn Profile</a>
+       </div>
+       </div>
+       <script src="C:\Users\hoss\Downloads\JS\app.js"> </script>
+    </body>
+</html>
